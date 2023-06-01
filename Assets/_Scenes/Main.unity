@@ -368,9 +368,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37857b73988b1cf40b5f2de90e855088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 500
-  _forceOffset: 150
-  _decreaseRate: 0.5
+  _force: 350
+  _forceOffset: 75
+  _decreaseRate: 0.25
   _decreaseRateOffset: 0.15
   _deadzone: 5
 --- !u!1 &519420028
