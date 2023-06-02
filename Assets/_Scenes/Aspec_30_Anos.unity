@@ -369,11 +369,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37857b73988b1cf40b5f2de90e855088, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 350
-  _forceOffset: 75
-  _decreaseRate: 1
-  _decreaseRateOffset: 0.15
+  _velocity: 0
+  _velocityRatio: 20
+  _decreaseRate: 5
   _deadzone: 5
+  _rotate: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
