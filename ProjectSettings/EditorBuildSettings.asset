@@ -6,10 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/_Scenes/Solar.unity
+    path: Assets/_Scenes/Solar Mobile.unity
     guid: 64cd02a0a3ea9c04c9217ebd3d368b4a
-  - enabled: 1
-    path: Assets/_Scenes/Aspec_30_Anos.unity
+  - enabled: 0
+    path: Assets/_Scenes/Aspec_30_Anos Mobile.unity
     guid: dfbafc7269af8964a8867462cf3f0c69
+  - enabled: 0
+    path: Assets/_Scenes/Zaza Games Mobile.unity
+    guid: 55900a4cc3aec244881389c59da9d2ad
+  - enabled: 1
+    path: Assets/_Scenes/Zaza Games Desktop.unity
+    guid: ec5b3234bebef6643adac68eb7034837
+  - enabled: 0
+    path: Assets/_Scenes/Solar Desktop.unity
+    guid: c3f2d7af1263ae24b9d1b4bcc2e508c6
+  - enabled: 0
+    path: Assets/_Scenes/Aspec_30_Anos Desktop.unity
+    guid: 544c555c3e01caf40a1f8f10797cf263
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 24591625a17dc84448b235e24f9529ab, type: 2}
+  m_UseUCBPForAssetBundles: 0

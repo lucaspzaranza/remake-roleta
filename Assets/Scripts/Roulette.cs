@@ -13,6 +13,12 @@ public class Roulette : MonoBehaviour
     [SerializeField] private float _deadzone;
     [SerializeField] private bool _rotate;
 
+    [Space]
+    [Header("For mobiles devices")]
+    [SerializeField] private bool _isRandom;
+    [SerializeField] private float _minSpeed;
+    [SerializeField] private float _maxSpeed;
+
     private bool _holdingMouse;
     private int _rotationDirection;
     private float _touchTimeCounter;
@@ -28,11 +34,12 @@ public class Roulette : MonoBehaviour
             _initalMousePos = Input.mousePosition;
             _holdingMouse = true;
         }
-        else if(Input.GetMouseButton(0) && !_rotate)
-        {
-            SetTouchInitialPosition();
-            _lastMousePos = Input.mousePosition;
-        }
+
+        //if(Input.GetMouseButton(0) && !_rotate)
+        //{
+        //    SetTouchInitialPosition(); 
+        //    _lastMousePos = Input.mousePosition;
+        //}
 
         if (Input.GetMouseButtonUp(0))
             ResetRoulette();
@@ -75,7 +82,12 @@ public class Roulette : MonoBehaviour
         _finalTouch = Input.mousePosition;
         _rotate = true;
         _holdingMouse = false;
+
+        if(_isRandom)
+            _velocity = GetRandomVelocity();
+        else
         _velocity = GetVelocity();
+
         _touchTimeCounter = 0f;
     }
 
@@ -94,6 +106,11 @@ public class Roulette : MonoBehaviour
 
         //print($"The velocity is: {velocity}.");
         return velocity / _velocityRatio;
+    }
+
+    private float GetRandomVelocity()
+    {
+        return Random.Range(_minSpeed, _maxSpeed);
     }
 
     private void SetTouchInitialPosition()
