@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -716,14 +716,14 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 41238
+      m_SelectedIDs: []
       m_LastClickedID:
-        m_Data: 41238
+        m_Data: 0
       m_ExpandedIDs:
+      - m_Data: -2488
+      - m_Data: -2410
+      - m_Data: -1930
       - m_Data: -1356
-      - m_Data: 41230
-      - m_Data: 41344
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1302,9 +1302,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.30293506, y: -1.2865885, z: 1.7296289}
+    m_Target: {x: -0.28139886, y: 0.18367118, z: 1.7092305}
     speed: 2
-    m_Value: {x: -0.30293506, y: -1.2865885, z: 1.7296289}
+    m_Value: {x: -0.28139886, y: 0.18367118, z: 1.7092305}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1354,9 +1354,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.666371
+    m_Target: 4.706214
     speed: 2
-    m_Value: 2.666371
+    m_Value: 4.706214
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1477,7 +1477,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Zaza Games
+    - Assets/_Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/Zaza Games
+  - Assets/_Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Lucas\Game Dev\Unity\Remake Roleta
   m_LockTracker:
@@ -1496,13 +1496,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 41572
+    - m_Data: 41542
     m_LastClickedID:
-      m_Data: 41572
+      m_Data: 41542
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 41452
-    - m_Data: 41548
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1563,10 +1562,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 41238
-    m_LastClickedInstanceID: 41238
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
